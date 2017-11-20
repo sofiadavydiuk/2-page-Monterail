@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="libs/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+	
+	<header class="header">
+		<div class="navbar navbar-default">
+			<a href="#" class="header__back-btn">
+				<span class="header__back-icon glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<div class="container">
+				<div class="row">
+					<div class="navbar-header">
+						<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="col-md-12">
+						<form class="navbar__form navbar-collapse collapse" id="navbar-main" aria-expanded="false">
+							<div class="col-md-9">
+								<div class="navbar__questions-wrapper">
+									<h2 class="navbar__questions-text">Questions</h2>
+									<span class="navbar__questions-icon glyphicon glyphicon-plus"></span>
+								</div>
+								<div class="navbar__radio-outer-wrapper">
+									<div class="navbar__radio-wrapper">
+										<input type="radio" name="navbar-question" id="navbar-radio-shelf" checked="checked" class="navbar__radio-input">
+										<label for="navbar-radio-shelf" class="navbar__radio-label">My Shelf</label>
+									</div>
+									<div class="navbar__radio-wrapper">
+										<input type="radio" name="navbar-question" id="navbar-radio-quest" class="navbar__radio-input">
+										<label for="navbar-radio-quest" class="navbar__radio-label">All questions</label>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="navbar__sort-wrapper">
+									<p class="navbar__sort-text">Sort by:</p>
+									<a href="#" class="navbar__sort-link">recent</a>
+									<p class="navbar__sort-text">or</p>
+									<a href="#" class="navbar__sort-link">hot</a>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="col-md-9">
+									<input type="text" name="navbar-search-text" class="navbar__search-input" placeholder="Search questions">
+								</div>
+								<div class="col-md-3">
+									<button type="submit" class="navbar__search-button">Search</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+			<div class="main__outer-wrapper">
+				<div class="container">
+					<div class="row">
+						<section class="article">
+							<div class="col-md-9">
+								<div class="article-wrapper">
+									<div class="article-top">
+										<img class="article-top__img">
+										<div class="article-top__wrapper">
+											<a href="#" class="article-top__name article-top__link">Eva</a>
+											<p class="article-top__text">is asking:</p>
+										</div>
+										<div class="article-top__wrapper">
+											<a href="#" class="article-top__link">Will insulin make my patients gain weight?</a>
+										</div>
+									</div>
+									<div class="article-bot">
+										<div class="col-md-2">
+											<div class="article-bot__card">
+												<div class="article-bot__bottom-wrapper">
+													<div class="article-bot__divider"></div>
+													<p class="article-bot__bottom-text">Asked</p>
+												</div>
+											</div>
+										</div>
+										<div class="article-bot__wrapper">
+											<div class="col-md-2">
+												<div class="article-bot__card">
+													<div class="article-bot__info">
+														<p class="article-bot__number">3</p>
+													</div>
+													<div class="article-bot__bottom-wrapper">
+														<div class="article-bot__divider"></div>
+														<p class="article-bot__bottom-text">Asked</p>
+													</div>
+												</div>	
+											</div>
+											<div class="col-md-2">
+												<div class="article-bot__card">
+													<div class="article-bot__info">
+														<img src="" alt="avatar-img" class="article-bot__img">
+													</div>
+													<div class="article-bot__bottom-wrapper">
+														<div class="article-bot__divider"></div>
+														<p class="article-bot__bottom-text">Asked</p>
+													</div>
+												</div>	
+											</div>
+											<div class="col-md-2">
+												<div class="article-bot__card">
+													<div class="article-bot__info">
+														<img src="" alt="avatar-img" class="article-bot__img">
+													</div>
+													<div class="article-bot__bottom-wrapper">
+														<div class="article-bot__divider"></div>
+														<p class="article-bot__bottom-text">Asked</p>
+													</div>
+												</div>	
+											</div>
+											<div class="col-md-2">
+												<div class="article-bot__card">
+													<div class="article-bot__info">
+														<img src="" alt="avatar-img" class="article-bot__img">
+													</div>
+													<div class="article-bot__bottom-wrapper">
+														<div class="article-bot__divider"></div>
+														<p class="article-bot__bottom-text">Asked</p>
+													</div>
+												</div>	
+											</div>
+											<div class="col-md-2">
+												<div class="article-bot__card">
+													<div class="article-bot__info">
+														<img src="" alt="avatar-img" class="article-bot__img">
+													</div>
+													<div class="article-bot__bottom-wrapper">
+														<div class="article-bot__divider"></div>
+														<p class="article-bot__bottom-text">Asked</p>
+													</div>
+												</div>	
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="col-md-3">
+							<ul class="article__list">
+								<li class="article__item">1 related discussion</li>
+								<li class="article__item">6 peers involved</li>
+								<li class="article__item">3 conversations</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<header class="header">
+			<div class="container">
+				<div class="row">
+
+				</div>
+			</div>
+			<div class="header__back-btn"></div>
+			<div class="header-main main-block">
+				<form action="#" class="header-main__form">
+					<div class="main-block__wrapper">
+						<div class="header-main__questions-wrapper">
+							<h2 class="header-main__text">Questions</h2>
+							<span class="header-main__add-icon"></span>
+						</div>
+						<div class="header-main__form-top-wrapper">
+							<input type="radio" name="header-filter" id="header-filter-shelf" checked="checked">
+							<label for="header-filter-shelf">My Shelf</label>
+							<input type="radio" name="header-filter" id="header-filter-all">
+							<label for="header-filter-all">All questions</label>
+						</div>
+						<div class="header-main__sort">
+							<p class="header-main__sort-text">Sort by:</p>
+							<a href="#" class="header-main__sort-link">recent</a>
+							<p class="header-main__sort-text">or</p>
+							<a href="#" class="header-main__sort-link">hot</a>
+						</div>
+						<div class="header-main__form-bot-wrapper">
+
+						</div>
+					</div>
+				</form>
+			</div>
+		</header>
+
+		<script src="libs/jquery-1.12.4/jquery-1.12.4.min.js"></script>
+		<script src="libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+	</html>

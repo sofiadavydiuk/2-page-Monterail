@@ -1,0 +1,67 @@
+.header{
+	background-color: #fff;
+}
+.header__back-btn{
+	display: inline-block;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+}
+.header__back-icon{
+	color: #C3C4C6;
+	border: 1px solid #C3C4C6;
+	background-color: transparent;
+	padding: 15px;
+	border-radius: 50%;
+}
+.header__back-icon:hover{
+	background-color: #9a9ae5;
+	color: #fff;
+	border: 1px solid #fff;
+	transition: 0.3s all ease;
+}
+.navbar__form{
+	padding: 30px 0 0 0;
+}
+.navbar__questions-text{
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 0;
+}
+.navbar__questions-icon{
+	display: inline-block;
+	vertical-align: top;
+	margin: 3px 0 0 20px;
+	color: #fff;
+	background-color: #0000ff;
+	padding: 5px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.navbar__questions-wrapper,
+.navbar__radio-outer-wrapper,
+.navbar__radio-wrapper{
+	display: inline-block;
+}
+.navbar__radio-outer-wrapper{
+	float: right;
+}
+.navbar__radio-wrapper{
+	margin-left: 25px;
+}
+.navbar__radio-label,
+.navbar__radio-input{
+	cursor: pointer;
+}
+.navbar__sort-text,
+.navbar__sort-link{
+	
+}
+
+/*bootstrap styles overriding:*/
+.navbar-default{
+	background-color: transparent;
+	background-image: none;
+	box-shadow: none;
+	border-bottom: none;
+}
