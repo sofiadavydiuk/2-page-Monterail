@@ -400,6 +400,7 @@ p{
 }
 .article-bot__upvotes {
 	padding-top: 30px;
+	height: 190px;
 }
 
 .arrows {
@@ -429,7 +430,7 @@ p{
 	font-size: 18px;
 }
 .button_on_first_section,
-.button_on_section2{
+.button_on_section{
 	position: absolute;
 	bottom: -23px;
 	left: 50%;
@@ -441,21 +442,21 @@ p{
 	text-align: center;
 	margin: 40px;
 }
-.section2__row{
+.section__row{
     background-color: #fff;
 }
-.section2__col-md-2{
+.section__col-md-2{
     padding: 0;
-	border: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
 }
-.section2__user_icon-link{
+.section__user_icon-link{
     display: inline-block;
     text-align: center;
 
-    height: 120px;
+    height: 190px;
     width: 100%;
 }
-.section2__img{
+.section__img{
     display: inline-block;
     max-width: 100%;
     position: relative;
@@ -500,14 +501,58 @@ p{
 }
 .text-wrap{
 	margin-top: 10px;
+	height: 180px;
 }
-.section2 {
+.section {
 	position: relative;
-}
-.button_on_section2{
-
 }
 
 .section3{
 	margin: 60px auto 300px;
+	position: relative;
+}
+.section_pushed{
+	background: transparent;
+}
+.section_pushed_col-md-6,
+.section_pushed_col-md-2{
+	background-color: #fff;
+}
+.section__row-one,
+.section__row-three{
+	box-shadow: 1px 1px 6px lightgrey;
+}
+.col-md-push-2 {
+	border-top: 1px solid lightgrey;
+}
+.col-md-push-6 {
+	border-top: 1px solid lightgrey;
+}
+.col-md-push-2:before{
+	box-shadow: 1px 1px 6px lightgrey;
+	display: inline-block;
+}
+
+/*TEXT*/
+
+.middle-text__answer{
+	font-style: italic;
+	font-size: 24px;
+	margin-top: 100px;
+	margin-bottom: 20px;
+
+}
+.middle-text__answer b{
+	font-style: normal;
+}
+.navbar__discussion-text {
+	font-size: 16px;
+	font-style: italic;
+	text-align: right;
+	font-weight: 500;
+}
+.navbar__discussion-text b{
+	display: inline-block;
+	margin: 0 10px;
+	font-style: normal;
 }
